@@ -4,7 +4,7 @@
 # Redirect a single page
 /index.html /index 301
 /index.html# /index 301
-/files/portfolios/Food_and_Coffee.html /files/portfolios/food-is-everything 301
+/files/portfolios/food-is-everything.html /files/portfolios/food-is-everything 301
 
 # Redirect a directory
 /directory/* /new-directory/:splat 301
