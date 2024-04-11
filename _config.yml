@@ -1,5 +1,5 @@
 gems:
   - jekyll-redirect-from
 
-permalink: pretty
+permalink: /
 baseurl: ""
