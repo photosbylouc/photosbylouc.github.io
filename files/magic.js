@@ -54,6 +54,7 @@ $(document).ready(function () {
   });
 
   $(".menu-secondary .menu-item > a").click(function (e) {
+    e.preventDefault();
     $(".sub-menu").removeClass("open"),
       $(this).next().hasClass("open") || $(this).next().addClass("open"),
       e.stopPropagation();
