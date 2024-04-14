@@ -42,6 +42,7 @@ $(document).ready(function () {
   });
 
   $(".slideout-overlay, .close-menu").on("click", function (evt) {
+    e.preventDefault();
     $(".menu-list, .close-menu").stop().fadeToggle();
     $(".slideout-inner").stop().delay(600).fadeToggle();
     $(".slideout-overlay").stop().delay(600).fadeToggle(700);
